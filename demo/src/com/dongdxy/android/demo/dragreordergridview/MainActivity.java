@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
 			}
 		});
 
-		mGridView.enableEditMode(R.id.delete_icon, new EditActionListener() {
+		mGridView.enableEditMode(R.id.delete_rel, new EditActionListener() {
 
 			@Override
 			public void onEditAction(int position) {
